@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: darkblue;
+    height: 100vh;
+}
+header{
+    background-color: lightyellow;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color: navy;
+}
+nav{
+    background-color: rgb(1, 1, 129);
+    border: 1px rgb(7, 68, 7);
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 1rem;
+}
+nav ul li{
+    color: rgb(241, 241, 156);
+    list-style-type: none;
+    padding: 0.2rem 1rem 0.5rem 1rem;
+}
+main{
+    min-height: 250px;
+    color: lightskyblue;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: midnightblue;
+    color: rgb(93, 247, 247);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(248, 238, 152);
+}
+a:hover{
+    color: rgb(83, 174, 248);
+}
+.left{
+    margin: 1rem;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.right{
+    width: 48%;
+}
+.left .btn{
+    width: 40%;
+    background-color:rgb(132, 212, 239); 
+    color: rgb(90, 57, 57);
+    font-size: 1rem;
+    border-radius: 4px;
+    height: 2rem;
+    height: 1.8rem;
+    border: none;
+}
+.left .btn:hover{
+    background-color: rgb(73, 154, 127);
+}
+.Galeria{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.Galeria img{
+    width: 155px;
+    margin: 1rem;
+    box-shadow: 10px 10px 5px  rgb(236, 236, 177);
+}
+.Galeria img:hover{
+  transform: scale(1.2);
+}
+
+
+
